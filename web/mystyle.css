@@ -1,0 +1,40 @@
+/*
+* Melanie Roy-Plommer GEx
+* @section Academic Integrity
+* I certify that this work is solely my own and complies with
+* NBCC Academic Integrity Policy (policy 1111)
+*/
+/* 
+    Document : mystyle.css
+    Author   : melanie roy-plommer
+*/
+.wrapper{
+    width: 75%;
+    margin: auto;
+}
+h1, h2, h3{
+    text-align: center;
+}
+.left{
+    text-align: right;
+}
+footer{
+    text-align: center;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.error{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.text{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}

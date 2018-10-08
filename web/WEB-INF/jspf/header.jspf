@@ -1,0 +1,20 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!--*
+header.jsp
+Sept 18, 2018
+Melanie Roy-Plommer
+
+@section Academic Integrity
+* I certify that this work is solely my own and complies with
+* NBCC Academic Integrity Policy (policy 1111)-->
+
+<header>
+    <img class="logo" src="call-center-logo.png">
+    <div class="w3-bar w3-blue-grey">
+        <!--add three buttons - Home - Create a Service Report Ticket-->
+        <a href="home.jsp" class="w3-bar-item w3-button">Home</a> 
+        <a href="createticket.jsp" class="w3-bar-item w3-button">Create a Service Report Ticket</a> 
+        <a href="vieweta.jsp" class="w3-bar-item w3-button">View ETA</a>                 
+    </div>
+</header>

@@ -1,0 +1,21 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="java.time.LocalDateTime"%>
+<%@page import="java.util.Date"%>
+<%@ page pageEncoding="UTF-8" %>
+
+<!--*
+footer.jsp
+Sept 18, 2018
+Melanie Roy-Plommer
+
+@section Academic Integrity
+* I certify that this work is solely my own and complies with
+* NBCC Academic Integrity Policy (policy 1111)-->
+
+<footer class="w3-container w3-blue-grey">
+
+    <% LocalDateTime thisYear = LocalDateTime.now();%>
+    <p>Copyright &copy; <%= thisYear.getYear()%> All rights reserved</p>
+    <p><a href="mailto:melanieroyplommer@gmail.com?Subject=Hello%20again" target="_top">Contact us<a></p>
+    <p>Current Date: <%= new Date()%></p>
+</footer>
